@@ -1,0 +1,50 @@
+body {
+    background-image: url("bg4.jpg");
+    
+}
+
+.logo-align {
+    position: relative;
+    left: -5%;
+}
+.box{
+    display: flex;
+    font-size: medium;
+    padding: 30px;
+    justify-content: space-between;
+}
+.txt{
+    justify-content: space-between;
+}
+.navbar {
+    width: 90%;
+    position: relative;
+    top: 2%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    position: relative;
+    right: 30%;
+    margin-top: 3%;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+
+.navbar ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}

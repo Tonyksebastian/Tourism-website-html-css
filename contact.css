@@ -1,0 +1,68 @@
+body{
+    background-image: url("bg2.jpg");
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.logo-align {
+    position: relative;
+    left: -5%;
+}
+
+.navbar {
+    width: 90%;
+    position: relative;
+    top: 2%;
+    left: 13%;
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    position: relative;
+    right: 30%;
+    margin-top: 3%;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+
+.navbar ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.contact {
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+}
+
+/* Style the contact detail boxes */
+.detail {
+    width: 30%;
+    margin: 0 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    text-align: center;
+}
